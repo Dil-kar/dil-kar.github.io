@@ -1,9 +1,9 @@
 [
 	{
-		"name": "Email.ML",
+		"name": "Early Thermal Forest Fire Detection using UAV and Saliency Maps",
 		"description": "Minimalist temporary Email.",
-		"image": "/assets/images/projects/email.ml.png",
-		"url": "https://email.ml"
+		"image": "/assets/images/projects/ffd.gif",
+		"url": "https://doi.org/10.1109/IC3I56241.2022.10072674"
 	},
 	{
 		"name": "DNS.Surf",
