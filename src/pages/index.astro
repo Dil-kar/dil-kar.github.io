@@ -8,7 +8,7 @@ import Layout from "../layouts/main.astro";
 
 <Layout title="Dilli">
   <div
-    class="relative z w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
+    class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
   >
     <div class="flex flex-col items-center md:flex-row">
       <div class="relative w-full md:w-1/2">
@@ -18,26 +18,21 @@ import Layout from "../layouts/main.astro";
           Hello, I'm Dilli Bhaskar.
         </h1>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-          I'm a programmer living in Chennai. <br
-            class="hidden lg:block"
-          />I focus on AI Research. <br class="hidden lg:block" /><span
-            class="hidden lg:block"
-            >The handsome boy on the right is not me.</span
+          I'm a rookie researcher from Chennai, India with a zeal for robotics research. <br
           >
         </p>
         <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
-          I can help you out with:
+          Research Interests:
         </p>
         <ul
           class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
         >
-          <li>Vue.js Development</li>
-          <li>React.js Development</li>
-          <li>Node.js Development</li>
-          <li>Website Design</li>
-          <li>and more...</li>
+          <li>Robot Learning</li>
+          <li>Reinforcement Learning</li>
+          <li>Optimal Control</li>
+          <li>Multi-agent systems</li>
         </ul>
-        <Button text="Follow me on 𝕏" link="https://twitter.com/ccbikai" />
+        <Button text="Drop a message here!!" link="mailto:dillibhaskar05@example.com" />
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
@@ -51,7 +46,7 @@ import Layout from "../layouts/main.astro";
             >
               <span
                 class="flex items-center justify-center w-full h-full bg-white border border-dashed rounded-full dark:bg-neutral-950 border-neutral-300 dark:border-neutral-700"
-                >👋</span
+                ></span
               >
             </span>
           </div>
@@ -71,5 +66,8 @@ import Layout from "../layouts/main.astro";
       </div>
     </div>
   </div>
+
+  <Separator text="Check out my projects" />
+  <Projects />
 
 </Layout>
