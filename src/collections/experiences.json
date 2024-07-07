@@ -1,23 +1,23 @@
 [
 	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
+		"dates": "July 2024 · Present",
+		"role": "Research Intern",
+		"company": "Indian Institute of Technology, Madras",
+		"description": "Developemnt of AI based controller for unmanned aerial vehicles",
 		"logo": "/assets/images/experiences/iitm.png"
 	},
 	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
+		"dates": "January 2024 · July 2024",
+		"role": "Research Intern",
+		"company": "IIT Palakkad Technology I-Hub Foundation",
+		"description": "Responsible for developing model free continuous controller for mobile robot (turtlebot 3)",
 		"logo": "/assets/images/experiences/iptif.jpeg"
 	},
 	{
 		"dates": "June 2023 · July 2023 ",
-		"role": "Project Intern",
+		"role": "Summer Intern",
 		"company": "Indian Institute of Technology, Palakkad",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
+		"description": "Intern, involved in the exploration of field reinforcement learning for optimal control.",
 		"logo": "/assets/images/experiences/iitpkd.jpeg"
 	}
 ]
