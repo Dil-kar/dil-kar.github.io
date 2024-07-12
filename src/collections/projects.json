@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "Early Thermal Forest Fire Detection using UAV and Saliency Maps",
-		"description": "Minimalist temporary Email.",
+		"description": "1. Minimalist temporary Email",
 		"image": "/assets/images/projects/db.gif",
 		"url": "https://doi.org/10.1109/IC3I56241.2022.10072674"
 	},
@@ -19,8 +19,12 @@
 	},
 	{
 		"name": "Early Thermal Forest Fire Detection using UAV and Saliency Maps",
-		"description": "Minimalist temporary Email.",
+		"description": [
+		  "Minimalist temporary Email.",
+		  "Efficient monitoring system.",
+		  "Advanced thermal detection."
+		],
 		"image": "/assets/images/projects/aero.gif",
 		"url": "https://doi.org/10.1109/IC3I56241.2022.10072674"
-	}
+	  }
 ]
