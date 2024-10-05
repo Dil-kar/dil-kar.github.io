@@ -3,16 +3,18 @@
 		"name": "Home",
 		"url": "/"
 	},
+
 	{
-		"name": "Posts",
+		"name": "About",
+		"url": "/about"
+	}
+	{
+		"name": "Publications",
 		"url": "/posts"
 	},
 	{
 		"name": "Projects",
 		"url": "/projects"
 	},
-	{
-		"name": "About",
-		"url": "/about"
-	}
+
 ]
