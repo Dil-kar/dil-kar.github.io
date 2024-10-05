@@ -10,14 +10,14 @@
 		"dates": "January 2024 · July 2024",
 		"role": "Research Intern",
 		"company": "IIT Palakkad Technology I-Hub Foundation",
-		"description": "Responsible for developing model free continuous controller for mobile robot (turtlebot 3)",
+		"description": "",
 		"logo": "/assets/images/experiences/iptif.jpeg"
 	},
 	{
 		"dates": "June 2023 · July 2023 ",
 		"role": "Summer Intern",
 		"company": "Indian Institute of Technology, Palakkad",
-		"description": "Intern, involved in the exploration of field reinforcement learning for optimal control.",
+		"description": "",
 		"logo": "/assets/images/experiences/iitpkd.jpeg"
 	}
 ]
