@@ -1,30 +1,21 @@
 [
 	{
-		"name": "Early Thermal Forest Fire Detection using UAV and Saliency Maps",
-		"description": "Minimalist temporary Email.",
-		"image": "/assets/images/projects/ffd.gif",
-		"url": "https://doi.org/10.1109/IC3I56241.2022.10072674"
+	  "name": "Early Thermal Forest Fire Detection using UAV and Saliency Maps",
+	  "description": "Developed a UAV-based system for early detection of thermal forest fires using saliency maps.",
+	  "image": "/assets/images/projects/ffd.gif",
+	  "url": "https://doi.org/10.1109/IC3I56241.2022.10072674"
 	},
 	{
-		"name": "Early Thermal Forest Fire Detection using UAV and Saliency Maps",
-		"description": "1. Minimalist temporary Email",
-		"image": "/assets/images/projects/db.gif",
-		"url": "https://doi.org/10.1109/IC3I56241.2022.10072674"
+	  "name": "Street Litter Detection",
+	  "description": "Developed a street litter detector using YOLOv5 model based on the Euclidean approach. Trained on PennFudan and TACO datasets, achieving an F1 score of 89%. Deployed on real-time CCTVs for efficient litter detection.",
+	  "image": "/assets/images/projects/litter.gif",
+	  "url": "https://doi.org/10.1109/IC3I56241.2022.10072674"
 	},
 	{
-		"name": "Early Thermal Forest Fire Detection using UAV and Saliency Maps",
-		"description": "Minimalist temporary Email.",
-		"image": "/assets/images/projects/litter.gif",
-		"url": "https://doi.org/10.1109/IC3I56241.2022.10072674"
-	},
-	{
-		"name": "Early Thermal Forest Fire Detection using UAV and Saliency Maps",
-		"description": [
-		  "Minimalist temporary Email.",
-		  "Efficient monitoring system.",
-		  "Advanced thermal detection."
-		],
-		"image": "/assets/images/projects/aero.gif",
-		"url": "https://doi.org/10.1109/IC3I56241.2022.10072674"
-	  }
-]
+	  "name": "Self-Balancing Bike with LQR Controller",
+	  "description": "Developed and implemented a specialized LQR controller for a self-balancing bike with a single reaction wheel. Verified through simulations in V-rep software and successfully constructed the bike using Solidworks 2023, focusing on autonomous item delivery.",
+	  "image": "/assets/images/projects/aero.gif",
+	  "url": "https://doi.org/10.1109/IC3I56241.2022.10072674"
+	}
+  ]
+  
