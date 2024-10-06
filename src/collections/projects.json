@@ -1,31 +1,31 @@
 [
 	{
 	  "name": "Street Litter Detection",
-	  "description": "• Developed a street litter detector using YOLOv5 model based on the Euclidean approach.\n• Trained on PennFudan and TACO datasets, achieving an F1 score of 89%.\n• Deployed on real-time CCTVs for efficient litter detection.",
+	  "description": "• Developed a street litter detector using YOLOv5 model based on the Euclidean approach.<br>• Trained on PennFudan and TACO datasets, achieving an F1 score of 89%.<br>• Deployed on real-time CCTVs for efficient litter detection.",
 	  "image": "/assets/images/projects/litter.gif",
 	  "url": "https://github.com/Dilli-Bhaskar/YoloV5_GarbageLitterDetection"
 	},
 	{
 	  "name": "Self-Balancing Bike with LQR Controller",
-	  "description": "• Developed and implemented a specialized LQR controller for a self-balancing bike with a single reaction wheel.\n• Verified through simulations in V-rep software and successfully constructed the bike using Solidworks 2023.\n• Focused on autonomous item delivery.",
+	  "description": "• Developed and implemented a specialized LQR controller for a self-balancing bike with a single reaction wheel.<br>• Verified through simulations in V-rep software and successfully constructed the bike using Solidworks 2023.<br>• Focused on autonomous item delivery.",
 	  "image": "/assets/images/projects/aero.gif",
 	  "url": "https://youtu.be/fS3A84cmdZY"
 	},
 	{
 	  "name": "IOT Integration on Shaker Machine",
-	  "description": "• Developed a low-cost non-contact AC sensor to check the status of components of the shaker machine in the Product Reliability lab at TCE.\n• Targeted at small-scale and manufacturing industries to prevent accidents caused by unattended machines.\n• Automated monitoring and cloud-based monthly report storage were implemented.",
+	  "description": "• Developed a low-cost non-contact AC sensor to check the status of components of the shaker machine in the Product Reliability lab at TCE.<br>• Targeted at small-scale and manufacturing industries to prevent accidents caused by unattended machines.<br>• Automated monitoring and cloud-based monthly report storage were implemented.",
 	  "image": "/assets/images/projects/iot.gif",
 	  "url": "https://youtu.be/J2svYU1bzYQ"
 	},
 	{
 	  "name": "AI-assisted Waste Recycling System",
-	  "description": "• Created three DL models achieving 87% accuracy in identifying road waste with CCTVs.\n• Achieved a classification accuracy of 92% for categorizing waste into seven recycling/disposal categories.\n• Classified plastic items with 85% accuracy into five subcategories based on shapes.\n• Designed and deployed a user-friendly website and mobile app for e-commerce of recyclable items.\n• Ongoing collaboration with ICCE for practical deployment.",
+	  "description": "• Created three DL models achieving 87% accuracy in identifying road waste with CCTVs.<br>• Achieved a classification accuracy of 92% for categorizing waste into seven recycling/disposal categories.<br>• Classified plastic items with 85% accuracy into five subcategories based on shapes.<br>• Designed and deployed a user-friendly website and mobile app for e-commerce of recyclable items.<br>• Ongoing collaboration with ICCE for practical deployment.",
 	  "image": "/assets/images/projects/sih.jpg",
 	  "url": "https://docs.google.com/presentation/d/e/2PACX-1vQ5VkmWgZhuwPzhJou4jI9mkJXfyaKlK71k3rLtjyv_XSh8VjiJWMst8KehKM0y8g/pub?start=true&loop=true&delayms=3000"
 	},
 	{
 	  "name": "PondFishDet",
-	  "description": "• Developed CLAHE-YOLOv8 and MSR-YOLOv8 algorithms to enhance underwater image analysis for accurate fish detection.\n• Trained on real-time underwater images with varying lighting conditions.\n• Achieved MAP scores of 0.964 for MSR-YOLOv8 and 0.970 for CLAHE-YOLOv8.\n• Ranked Top 6 in the DePondFi ’23 Challenge at the National Conference on Computer Vision, Pattern Recognition, Image Processing, and Graphics-2023.",
+	  "description": "• Developed CLAHE-YOLOv8 and MSR-YOLOv8 algorithms to enhance underwater image analysis for accurate fish detection.<br>• Trained on real-time underwater images with varying lighting conditions.<br>• Achieved MAP scores of 0.964 for MSR-YOLOv8 and 0.970 for CLAHE-YOLOv8.<br>• Ranked Top 6 in the DePondFi ’23 Challenge at the National Conference on Computer Vision, Pattern Recognition, Image Processing, and Graphics-2023.",
 	  "image": "/assets/images/projects/pond.gif",
 	  "url": "https://github.com/Dilli-Bhaskar/PondFishDet/tree/main"
 	}
