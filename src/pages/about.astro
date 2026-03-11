@@ -1,52 +1,104 @@
 ---
-import experiences from "../collections/experiences.json";
-import AboutExperience from "../components/about-experience.astro";
-import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
 ---
 
-<Layout title="About Me">
-  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
-    <PageHeading
-      title="About Me"
-      description="I’m an incoming M.A.Sc student in Electrical and Computer Engineering at the University of British Columbia, advised by Prof. Cyrus Neary. Previously, I was a Project Associate at IIT Madras and a researcher at IIT Palakkad. I am passionate about building robots that can think like humans, working on reinforcement learning-based control of autonomous systems and conducting empirical experiments on continuous control."
-    />
+<Layout title="About - Dilli Bhaskar">
+  <section class="relative z-20 max-w-4xl mx-auto my-12 px-7 lg:px-0">
 
-    
+    <h1 class="mb-6 text-3xl font-bold tracking-tight dark:text-white" style="font-family: 'Georgia', serif;">About Me</h1>
 
-    <h2
-      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
-    >
-      Experience
-    </h2>
-    <div class="px-5 py-10">
-      {
-        experiences.map((experience, loop) => {
-          return (
-            <>
-              {loop == 0 || loop == 1 ? (
-                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
-                  <AboutExperience
-                    dates={experience.dates}
-                    role={experience.role}
-                    company={experience.company}
-                    description={experience.description}
-                    logo={experience.logo}
-                  />
-                </div>
-              ) : (
-                <AboutExperience
-                  dates={experience.dates}
-                  role={experience.role}
-                  company={experience.company}
-                  description={experience.description}
-                  logo={experience.logo}
-                />
-              )}
-            </>
-          )
-        })
-      }
+    <p class="mb-6 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+      I'm an incoming M.A.Sc student in Electrical and Computer Engineering at the
+      <a href="https://www.ubc.ca/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">University of British Columbia</a>,
+      advised by <a href="#" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Prof. Cyrus Neary</a>.
+      I am passionate about building robots that can think like humans, working on reinforcement learning-based control of autonomous systems
+      and conducting empirical experiments on continuous control.
+    </p>
+
+    <!-- Education -->
+    <h2 class="mt-10 mb-4 text-xl font-bold dark:text-neutral-100" style="font-family: 'Georgia', serif;">Education</h2>
+
+    <div class="space-y-6">
+      <div class="flex gap-4 items-start">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-lg">🎓</div>
+        <div>
+          <h3 class="text-sm font-semibold dark:text-neutral-100">M.A.Sc in Electrical and Computer Engineering</h3>
+          <p class="text-sm text-neutral-500 dark:text-neutral-400">University of British Columbia (UBC), Vancouver, CA</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Sep. 2025 – Aug. 2027 · Advisor: Prof. Cyrus Neary</p>
+        </div>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-lg">🎓</div>
+        <div>
+          <h3 class="text-sm font-semibold dark:text-neutral-100">B.E. in Mechanical Engineering</h3>
+          <p class="text-sm text-neutral-500 dark:text-neutral-400">Thiagarajar College of Engineering (TCE), Madurai, IN</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Aug. 2020 – April 2024 · CGPA: 9.02/10.00 (First Class with Distinction)</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Department Best Outgoing Student · Advisor: Prof. S. Saravana Perumal</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Research Experience -->
+    <h2 class="mt-10 mb-4 text-xl font-bold dark:text-neutral-100" style="font-family: 'Georgia', serif;">Research Experience</h2>
+
+    <div class="space-y-8">
+      <div class="flex gap-4 items-start">
+        <div class="flex-shrink-0">
+          <img src="/assets/images/experiences/iitm.png" alt="IIT Madras" class="w-10 h-10 rounded-full border border-neutral-200 dark:border-neutral-700 bg-white" />
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold dark:text-neutral-100">Project Associate</h3>
+          <p class="text-sm text-neutral-500 dark:text-neutral-400">Indian Institute of Technology Madras, Chennai</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">July 2024 – Present · Advisor: Prof. Chandrashekar Lakshminarayanan</p>
+          <ul class="mt-2 space-y-1 text-sm text-neutral-600 dark:text-neutral-400 list-disc list-inside">
+            <li>Development of Deep RL based pursuit evasion solver with fixed wing UAV agents.</li>
+            <li>Fighter pilot behavior cloning for Deep RL based aerobatic maneuvers.</li>
+            <li>Rendering the simulations in Unreal Engine.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex gap-4 items-start">
+        <div class="flex-shrink-0">
+          <img src="/assets/images/experiences/iitpkd.jpeg" alt="IIT Palakkad" class="w-10 h-10 rounded-full border border-neutral-200 dark:border-neutral-700 bg-white" />
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold dark:text-neutral-100">Research Intern</h3>
+          <p class="text-sm text-neutral-500 dark:text-neutral-400">Indian Institute of Technology Palakkad</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Jan. 2024 – June 2024 · Advisor: Prof. Shaikshavali Chitraganti</p>
+          <ul class="mt-2 space-y-1 text-sm text-neutral-600 dark:text-neutral-400 list-disc list-inside">
+            <li>Implemented Deep RL-based motion planners using ROS and Gazebo.</li>
+            <li>Tested performance on Sim-to-Real experiments using TurtleBot3.</li>
+            <li>Developed an energy-based model using action maximization for exploration.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex gap-4 items-start">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-xs font-bold text-neutral-500">TCE</div>
+        <div>
+          <h3 class="text-sm font-semibold dark:text-neutral-100">Student Researcher — Vision Systems Lab</h3>
+          <p class="text-sm text-neutral-500 dark:text-neutral-400">Thiagarajar College of Engineering, Madurai</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Sep. 2022 – Dec. 2023 · Advisor: Prof. S. Saravana Perumaal</p>
+          <ul class="mt-2 space-y-1 text-sm text-neutral-600 dark:text-neutral-400 list-disc list-inside">
+            <li>Investigated multi-agent task scheduling using RL to minimize queuing delays.</li>
+            <li>Devised a novel path planning algorithm for mobile fulfillment systems using RL.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex gap-4 items-start">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-xs font-bold text-neutral-500">TCE</div>
+        <div>
+          <h3 class="text-sm font-semibold dark:text-neutral-100">Student Researcher — Artificial Intelligence Lab</h3>
+          <p class="text-sm text-neutral-500 dark:text-neutral-400">Thiagarajar College of Engineering, Madurai</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Feb. 2022 – Aug. 2022 · Advisor: Prof. M. Suguna</p>
+          <ul class="mt-2 space-y-1 text-sm text-neutral-600 dark:text-neutral-400 list-disc list-inside">
+            <li>Developed an object detection model for fire using thermal images.</li>
+            <li>Extracted saliency maps using BAS-Net & performed detection using YOLOv7.</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
   </section>
