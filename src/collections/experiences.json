@@ -1,23 +1,30 @@
 [
 	{
 		"dates": "July 2024 · Present",
-		"role": "Research Intern",
-		"company": "Indian Institute of Technology, Madras",
-		"description": "",
+		"role": "Project Associate",
+		"company": "Indian Institute of Technology Madras",
+		"description": "Development of Deep RL based pursuit evasion solver with fixed wing UAV agents. Fighter pilot behavior cloning for Deep RL based aerobatic maneuvers.",
 		"logo": "/assets/images/experiences/iitm.png"
 	},
 	{
-		"dates": "January 2024 · July 2024",
+		"dates": "January 2024 · June 2024",
 		"role": "Research Intern",
-		"company": "IIT Palakkad Technology I-Hub Foundation",
-		"description": "",
-		"logo": "/assets/images/experiences/iptif.jpeg"
+		"company": "Indian Institute of Technology Palakkad",
+		"description": "Implemented Deep RL-based motion planners using Robot Operating System (ROS) and Gazebo. Tested performance on Sim-to-Real experiments using TurtleBot3. Developed an energy-based model using an action maximization technique.",
+		"logo": "/assets/images/experiences/iitpkd.jpeg"
 	},
 	{
-		"dates": "June 2023 · July 2023 ",
-		"role": "Summer Intern",
-		"company": "Indian Institute of Technology, Palakkad",
-		"description": "",
-		"logo": "/assets/images/experiences/iitpkd.jpeg"
+		"dates": "September 2022 · December 2023",
+		"role": "Student Researcher",
+		"company": "Vision Systems Lab, TCE",
+		"description": "Investigated multi-agent task scheduling using RL techniques to minimize queuing delays. Devised a novel path planning algorithm for Robotic Mobile Fulfillment Systems.",
+		"logo": "/assets/images/experiences/yoho.ico"
+	},
+	{
+		"dates": "February 2022 · August 2022",
+		"role": "Student Researcher",
+		"company": "Artificial Intelligence Lab, TCE",
+		"description": "Developed an object detection model for fire using thermal images. Extracted saliency maps from thermal images using BAS-Net and performed object detection using YOLOv7.",
+		"logo": "/assets/images/experiences/wulian.ico"
 	}
 ]
