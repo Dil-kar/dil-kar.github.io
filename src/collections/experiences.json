@@ -4,7 +4,7 @@
 		"role": "Project Associate",
 		"company": "Indian Institute of Technology Madras",
 		"description": "Development of Deep RL based pursuit evasion solver with fixed wing UAV agents. Fighter pilot behavior cloning for Deep RL based aerobatic maneuvers.",
-		"logo": "/assets/images/experiences/iitm.png"
+		"logo": "/assets/images/experiences/IIT-Madras-Logo.png"
 	},
 	{
 		"dates": "January 2024 · June 2024",
@@ -18,13 +18,13 @@
 		"role": "Student Researcher",
 		"company": "Vision Systems Lab, TCE",
 		"description": "Investigated multi-agent task scheduling using RL techniques to minimize queuing delays. Devised a novel path planning algorithm for Robotic Mobile Fulfillment Systems.",
-		"logo": "/assets/images/experiences/yoho.ico"
+		"logo": "/assets/images/experiences/TCE-Madurai-Logo.png"
 	},
 	{
 		"dates": "February 2022 · August 2022",
 		"role": "Student Researcher",
 		"company": "Artificial Intelligence Lab, TCE",
 		"description": "Developed an object detection model for fire using thermal images. Extracted saliency maps from thermal images using BAS-Net and performed object detection using YOLOv7.",
-		"logo": "/assets/images/experiences/wulian.ico"
+		"logo": "/assets/images/experiences/TCE-Madurai-Logo.png"
 	}
 ]
