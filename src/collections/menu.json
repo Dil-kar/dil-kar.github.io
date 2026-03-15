@@ -6,13 +6,5 @@
 	{
 		"name": "About",
 		"url": "/about"
-	},
-	{
-		"name": "Publications",
-		"url": "/posts"
-	},
-	{
-		"name": "Projects",
-		"url": "/projects"
 	}
 ]

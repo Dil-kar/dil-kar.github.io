@@ -1,11 +1,5 @@
 [
   {
-    "name": "Solving Optimal Control Problems using Soft Actor Critic",
-    "description": "• Implemented RL algorithms (SAC, NAF, DDPG) to solve optimal control problems such as the Van der Pol oscillator, Pendulum, Dubins Car, and Target Problem.\n• Demonstrated that SAC achieves better performance compared to DDPG and is comparable to NAF in terms of sample efficiency.",
-    "image": "/assets/images/projects/db.gif",
-    "url": "https://github.com/Dilli-Bhaskar/Solving_Optimal_Control_problems_using_SAC.git"
-  },
-  {
     "name": "Robotic Manipulation using Continuous Deep RL",
     "description": "• Developed DRL pipeline to train a 7-DOF robotic arm agent in the PandaReach-v3 environment using the panda-gym toolkit.\n• Implemented SAC, NAF, and TD3 and integrated Hindsight Experience Replay to address sparse reward challenges.\n• Evaluated the DRL models over 3 random seeds, achieving a reward of ~-1.768.",
     "image": "/assets/images/projects/manipulator.gif",
@@ -34,5 +28,30 @@
     "description": "• Fabricated a rubber band powered aircraft using lightweight Balsa wood and paper structures.\n• Designed wing geometry with a dihedral angle of 20° for improved flight stability.\n• Achieved a sustained flight time of 2 minutes 10 seconds during testing.",
     "image": "/assets/images/projects/aero.gif",
     "url": "https://grabcad.com/dilli.bhaskar-1"
+  },
+
+  {
+    "name": "AI-assisted Waste Recycling System",
+    "description": "• Smart India Hackathon 2022 award-winning project.\n• Developed three deep learning models: (1) detection of waste on roads, (2) classification into seven recycling categories, and (3) classification of plastic waste into five sub-categories based on shape.\n• Implementation currently in progress in collaboration with ICCE.",
+    "image": "/assets/images/projects/sih.jpg",
+    "url": "https://docs.google.com/presentation/d/10lhWCpZqXJlVEUOKb9OSC5g_wKTLqBl/edit"
+  },
+  {
+    "name": "IoT Integration on Shaker Machine",
+    "description": "• Developed a low-cost non-contact AC sensor to monitor the operational status of components in a shaker machine at the Product Reliability Lab, TSS CAR, TCE.\n• Sensor data processed and deployed using Arduino IoT Cloud and Google Drive for long-term monitoring and storage.",
+    "image": "/assets/images/projects/iot.gif",
+    "url": "https://youtu.be/J2svYU1bzYQ"
+  },
+  {
+    "name": "Aerodynamic Drag Study of Time-Trial Cycling Helmets",
+    "description": "• Conducted computational flow analysis of cycling helmets with tail flap angles of 0°, 3°, and 9° using ANSYS Fluent.\n• Analysis showed that tail flap angles of 6°–9° significantly reduce drag coefficient compared to baseline configurations.",
+    "image": "/assets/images/projects/cfd.jpg",
+    "url": "https://drive.google.com/file/d/1vXyGCEbE6CvqFMZQBBdqHiV0b4k8yWSz/view"
+  },
+  {
+    "name": "Design Analysis of Detroit 8V-71 Marine Diesel Engine Piston",
+    "description": "• Redesigned the Detroit 8V-71 marine diesel engine piston using convex and concave head profiles.\n• Performed static stress analysis in ANSYS Workbench to compare flat, dome, and concave head designs.\n• Results showed that the concave head profile exhibited lower stresses and total deformation.",
+    "image": "/assets/images/projects/fea.gif",
+    "url": "https://drive.google.com/file/d/1rWP8J2dNhh9B4wp1sm_YIqqBlH0uXJqx/view"
   }
 ]
