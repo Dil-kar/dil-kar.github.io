@@ -14,20 +14,37 @@ import Layout from "../layouts/main.astro";
         <p class="mb-5 text-base leading-relaxed text-neutral-600 dark:text-neutral-400">
           M.A.Sc Candidate, Electrical &amp; Computer Engineering, <a href="https://www.ubc.ca/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">University of British Columbia</a>
         </p>
-        <p class="mb-5 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
-          I'm a 1st year master's student at UBC, advised by <a href="#" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Prof. Cyrus Neary</a>.
-          Previously, I was a Research Intern at <a href="https://iitpkd.ac.in/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">IIT Palakkad</a>
-          working on Deep RL-based motion planning with <a href="#" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Prof. Shaikshavali Chitraganti</a>.
-          I completed my Bachelor's in Mechanical Engineering at <a href="https://tce.edu/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">TCE</a> under the guidance of <a href="#" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Prof. C. Selva Kumar</a>.
-        </p>
-        <p class="mb-5 text-sm leading-relaxed text-neutral-700 dark:text-neutral-300">
-          I'm interested in leveraging reinforcement learning and optimal control to build robots that learn and adapt.
-        </p>
-        <ul class="mb-5 space-y-1 text-sm list-disc list-inside text-neutral-600 dark:text-neutral-400">
-          <li>How can deep RL enable robust autonomous navigation and maneuver execution?</li>
-          <li>Can model-free entropy frameworks improve sample efficiency and generalization in continuous control?</li>
-          <li>How do we bridge sim-to-real transfer for multi-agent systems?</li>
-        </ul>
+      <p class="mb-5 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        I'm a 1st year master's student in Electrical and Computer Engineering at 
+        <a href="https://www.ubc.ca/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">UBC</a>, 
+        advised by <a href="#" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Prof. Cyrus Neary</a>.
+        
+        Previously, I worked with 
+        <a href="https://www.iitm.ac.in/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">IIT Madras</a> 
+        and 
+        <a href="https://iitpkd.ac.in/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">IIT Palakkad</a> 
+        on Deep Reinforcement Learning for robotic autonomy, including UAV pursuit–evasion and robot motion planning, with 
+        <a href="#" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Prof. Chandrashekar Lakshminarayanan</a> 
+        and 
+        <a href="#" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Prof. Shaikshavali Chitraganti</a>.
+        
+        I completed my Bachelor's in Mechanical Engineering at 
+        <a href="https://tce.edu/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Thiagarajar College of Engineering (TCE)</a> 
+        under the guidance of 
+        <a href="#" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Prof. S. Saravana Perumaal</a> 
+        and 
+        <a href="#" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Prof. C. Selva Kumar</a>.
+      </p>
+      <p class="mb-5 text-sm leading-relaxed text-neutral-700 dark:text-neutral-300">
+        I'm interested in developing physics-informed reinforcement learning algorithms that enable robots to learn robust control policies directly from visual observations.
+        My research focuses on combining world models, representation learning, and physical priors to build autonomous systems that are both data-efficient and physically grounded.
+      </p>
+
+      <ul class="mb-5 space-y-1 text-sm list-disc list-inside text-neutral-600 dark:text-neutral-400">
+        <li>How can we incorporate physical laws and inductive biases into latent world models learned from visual observations?</li>
+        <li>Can physics-structured latent representations improve sample efficiency and generalization in model-based reinforcement learning?</li>
+        <li>How can vision and proprioceptive signals be jointly integrated to enable robust control and planning in real-world robotic systems?</li>
+      </ul>
 
         <!-- Social Links -->
         <div class="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm">
@@ -302,11 +319,7 @@ import Layout from "../layouts/main.astro";
   </section>
 
   <!-- ===================== FOOTER CREDIT ===================== -->
-  <section class="relative z-20 w-full max-w-4xl mx-auto mt-10 mb-16 px-7 xl:px-0">
-    <p class="text-xs text-center text-neutral-400 dark:text-neutral-600">
-      Design inspired by <a href="https://jonbarron.info/" target="_blank" class="hover:underline">Jon Barron</a>'s academic homepage.
-    </p>
-  </section>
+
 </Layout>
 
 <style>
