@@ -8,7 +8,7 @@
   {
     "name": "Robotic Manipulation using Continuous Deep RL",
     "description": "• Developed DRL pipeline to train a 7-DOF robotic arm agent in the PandaReach-v3 environment using the panda-gym toolkit.\n• Implemented SAC, NAF, and TD3 and integrated Hindsight Experience Replay to address sparse reward challenges.\n• Evaluated the DRL models over 3 random seeds, achieving a reward of ~-1.768.",
-    "image": "/assets/images/projects/ffd.gif",
+    "image": "/assets/images/projects/manipulator.gif",
     "url": "https://github.com/Dilli-Bhaskar/Robotic-Manipulation-using-Continuous-Deep-RL.git"
   },
   {
@@ -26,7 +26,13 @@
   {
     "name": "LQR controlled Self Balancing Bike",
     "description": "• Developed and implemented a specialized Linear Quadratic Regulator (LQR) controller for a single reaction wheel-based self-balancing robot.\n• Verified and assessed the algorithm's performance through simulations in V-rep software.\n• successfully constructed a self-balancing bike emphasizing autonomous item delivery capabilities.",
-    "image": "/assets/images/projects/aero.gif",
+    "image": "/assets/images/projects/db.gif",
     "url": "https://youtu.be/fS3A84cmdZY"
+  },
+  {
+    "name": "Design and Fabrication of Miniaturized Aircraft",
+    "description": "• Fabricated a rubber band powered aircraft using lightweight Balsa wood and paper structures.\n• Designed wing geometry with a dihedral angle of 20° for improved flight stability.\n• Achieved a sustained flight time of 2 minutes 10 seconds during testing.",
+    "image": "/assets/images/projects/aero.gif",
+    "url": "https://grabcad.com/dilli.bhaskar-1"
   }
 ]
