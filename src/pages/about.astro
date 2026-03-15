@@ -8,12 +8,25 @@ import Layout from "../layouts/main.astro";
     <h1 class="mb-6 text-3xl font-bold tracking-tight dark:text-white" style="font-family: 'Georgia', serif;">About Me</h1>
 
     <p class="mb-6 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
-      I'm an incoming M.A.Sc student in Electrical and Computer Engineering at the
-      <a href="https://www.ubc.ca/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">University of British Columbia</a>,
-      advised by <a href="#" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">Prof. Cyrus Neary</a>.
-      I am passionate about building robots that can think like humans, working on reinforcement learning-based control of autonomous systems
-      and conducting empirical experiments on continuous control.
+      My research lies at the intersection of robotics, reinforcement learning, and control theory. 
+      I am interested in developing learning algorithms that enable robots to understand and interact 
+      with the physical world in a reliable and data-efficient manner. In particular, I study how 
+      modern machine learning approaches such as reinforcement learning and world models can be 
+      combined with structure from classical physics and control to build autonomous systems that 
+      are both physically grounded and robust in real-world environments.
     </p>
+
+    <h2 class="mt-10 mb-4 text-xl font-bold dark:text-neutral-100" style="font-family: 'Georgia', serif;">
+    Research Interests
+    </h2>
+
+    <ul class="mb-6 space-y-1 text-sm list-disc list-inside text-neutral-600 dark:text-neutral-400">
+      <li>Robot Learning and Autonomous Systems</li>
+      <li>Model-Based Reinforcement Learning</li>
+      <li>Physics-Informed Machine Learning</li>
+      <li>World Models and Representation Learning</li>
+      <li>Multi-Agent Robotics</li>
+    </ul>
 
     <!-- Education -->
     <h2 class="mt-10 mb-4 text-xl font-bold dark:text-neutral-100" style="font-family: 'Georgia', serif;">Education</h2>
@@ -24,7 +37,7 @@ import Layout from "../layouts/main.astro";
         <div>
           <h3 class="text-sm font-semibold dark:text-neutral-100">M.A.Sc in Electrical and Computer Engineering</h3>
           <p class="text-sm text-neutral-500 dark:text-neutral-400">University of British Columbia (UBC), Vancouver, CA</p>
-          <p class="text-xs text-neutral-400 dark:text-neutral-500">Sep. 2025 – Aug. 2027 · Advisor: Prof. Cyrus Neary</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Sep. 2025 – Aug. 2027 · Advisor: <a href="https://ece.ubc.ca/cyrus-neary/" target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 hover:underline">Prof. Cyrus Neary</a></p>
         </div>
       </div>
       <div class="flex gap-4 items-start">
@@ -33,7 +46,7 @@ import Layout from "../layouts/main.astro";
           <h3 class="text-sm font-semibold dark:text-neutral-100">B.E. in Mechanical Engineering</h3>
           <p class="text-sm text-neutral-500 dark:text-neutral-400">Thiagarajar College of Engineering (TCE), Madurai, IN</p>
           <p class="text-xs text-neutral-400 dark:text-neutral-500">Aug. 2020 – April 2024 · CGPA: 9.02/10.00 (First Class with Distinction)</p>
-          <p class="text-xs text-neutral-400 dark:text-neutral-500">Department Best Outgoing Student · Advisor: Prof. S. Saravana Perumal</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Department Best Outgoing Student · Advisor: <a href="https://www.tce.edu" target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 hover:underline">Prof. S. Saravana Perumal</a></p>
         </div>
       </div>
     </div>
@@ -49,7 +62,7 @@ import Layout from "../layouts/main.astro";
         <div>
           <h3 class="text-sm font-semibold dark:text-neutral-100">Project Associate</h3>
           <p class="text-sm text-neutral-500 dark:text-neutral-400">Indian Institute of Technology Madras, Chennai</p>
-          <p class="text-xs text-neutral-400 dark:text-neutral-500">July 2024 – Present · Advisor: Prof. Chandrashekar Lakshminarayanan</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">July 2024 – Present · Advisor: <a href="https://ed.iitm.ac.in" target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 hover:underline">Prof. Chandrashekar Lakshminarayanan</a></p>
           <ul class="mt-2 space-y-1 text-sm text-neutral-600 dark:text-neutral-400 list-disc list-inside">
             <li>Development of Deep RL based pursuit evasion solver with fixed wing UAV agents.</li>
             <li>Fighter pilot behavior cloning for Deep RL based aerobatic maneuvers.</li>
@@ -65,7 +78,7 @@ import Layout from "../layouts/main.astro";
         <div>
           <h3 class="text-sm font-semibold dark:text-neutral-100">Research Intern</h3>
           <p class="text-sm text-neutral-500 dark:text-neutral-400">Indian Institute of Technology Palakkad</p>
-          <p class="text-xs text-neutral-400 dark:text-neutral-500">Jan. 2024 – June 2024 · Advisor: Prof. Shaikshavali Chitraganti</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Jan. 2024 – June 2024 · Advisor: <a href="https://iitpkd.ac.in" target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 hover:underline">Prof. Shaikshavali Chitraganti</a></p>
           <ul class="mt-2 space-y-1 text-sm text-neutral-600 dark:text-neutral-400 list-disc list-inside">
             <li>Implemented Deep RL-based motion planners using ROS and Gazebo.</li>
             <li>Tested performance on Sim-to-Real experiments using TurtleBot3.</li>
@@ -79,7 +92,7 @@ import Layout from "../layouts/main.astro";
         <div>
           <h3 class="text-sm font-semibold dark:text-neutral-100">Student Researcher — Vision Systems Lab</h3>
           <p class="text-sm text-neutral-500 dark:text-neutral-400">Thiagarajar College of Engineering, Madurai</p>
-          <p class="text-xs text-neutral-400 dark:text-neutral-500">Sep. 2022 – Dec. 2023 · Advisor: Prof. S. Saravana Perumaal</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Sep. 2022 – Dec. 2023 · Advisor: <a href="https://www.tce.edu" target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 hover:underline">Prof. S. Saravana Perumal</a> and <a href="https://www.tce.edu" target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 hover:underline">Prof. C. Selva Kumar</a></p>
           <ul class="mt-2 space-y-1 text-sm text-neutral-600 dark:text-neutral-400 list-disc list-inside">
             <li>Investigated multi-agent task scheduling using RL to minimize queuing delays.</li>
             <li>Devised a novel path planning algorithm for mobile fulfillment systems using RL.</li>
@@ -92,7 +105,7 @@ import Layout from "../layouts/main.astro";
         <div>
           <h3 class="text-sm font-semibold dark:text-neutral-100">Student Researcher — Artificial Intelligence Lab</h3>
           <p class="text-sm text-neutral-500 dark:text-neutral-400">Thiagarajar College of Engineering, Madurai</p>
-          <p class="text-xs text-neutral-400 dark:text-neutral-500">Feb. 2022 – Aug. 2022 · Advisor: Prof. M. Suguna</p>
+          <p class="text-xs text-neutral-400 dark:text-neutral-500">Feb. 2022 – Aug. 2022 · Advisor: <a href="https://www.tce.edu" target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 hover:underline">Prof. M. Suguna</a></p>
           <ul class="mt-2 space-y-1 text-sm text-neutral-600 dark:text-neutral-400 list-disc list-inside">
             <li>Developed an object detection model for fire using thermal images.</li>
             <li>Extracted saliency maps using BAS-Net & performed detection using YOLOv7.</li>
